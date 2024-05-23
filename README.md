@@ -69,6 +69,82 @@ Responsive design ensuring compatibility across various devices and screen sizes
 
 Source files and documentation for future maintenance and updates.
 
+## Features User Experience
+#### How I intended and how it turned out
+
+__Index / Homepage__
+
+![Indexpage as imagined](<Indexpage image.png>) 
+
+![The Index-page on small screen](The_Indexpage_on_small_screen.png)
+
+On the index-page I wanted the User to get some basic photographic tips. I wrote all of the text myself. I also added a link to wikipedia explaining the rule of thirds. Hopefully this will improve the quality of photos for the User, as well as ignite a spark of curiosity regaring the wide world of photography.
+
+__Gallery page__
+
+![Gallerypage as imagined](<Gallerypage image.png>) 
+
+![The Gallery Page on a medium sized screen](The_Gallery_page_Medium_size_screen.png)
+
+On the gallery page I added some of my own photos as examples for the User to explain more in detail how the photos were taken, thus giving the User a larger understanding for and some more tips on how to take good pictures of their pets.
+
+__Contact page__
+
+![IContactpage as imagined](<Contactpage image.png>)
+
+![Subscriptions-form on contact page](Subscribe_to_newsmail_and_contact.png)
+
+On the contact page, the User finds my email and my phonenumber.
+They may also subscribe to a weekly email with commersial material.
+As the User surely have further questions and a newborn passion for photography, they will be eager to recieve emails with relevant links.
+I also assure them their personal data is safe with me.
+
+
+
+### Existing Features
+
+- __Navigation Bar__
+
+![navbar](navigation.png)
+
+- Featured on all three pages, the full responsive navigation bar includes links to the Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
+
+- When the screen size is, and is smaller than 768px the navbar turns into an bar-icon to save space in the header.
+
+- This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the "back" button.
+
+## Testing 
+
+![menu bar missing and three columns of photos](<The navigation menu is not showing.png>)
+
+I have used Dev-tools in Google Chrome to check how the pages respond to diffrent sizes.
+For example I have done a lot of testing to get the gallery-page to work good. 
+I also wanted the navigation bar to become an burger-menu for the smaller screen-sizes.
+Here we see that the buger nav-toggle is missing, We also see there being three columns of photos, at these smaller sizes I want them to be only two, and on 768px and smaller I want only one column.
+
+I was finally able to solve this by changeing the order of the media-querries from biggest to smallest screen-size within the stylesheet.
+
+![Responsive on all browsers tested](responsive_on_firefox_oprah_edge_chrome.png)
+The Webpage is responsive on all web-browsers i have tested it in, even the subscription-form on the contact page is working properly. Microsoft Edge, Firefox, Oprah and Chrome. 
+
+![In this image we see the form working well in all browsers.](<Skärmbild 2024-03-15 194856.png>)
+
+### Functional Testing
+
+|Function|On platform|Works good| Fails|
+|--------|-----------|----------|------|
+|Logotype to home|browsers *| Yes |      |
+|nav Home|browsers * |Yes|      |
+|nav Gallery| browsers * |Yes |      |
+|nav Contact |browsers *|Yes|      |
+|Wiki-link in tips on index |  browsers *|Yes |      |
+|<h4>The footer social-media links</h4>|
+|X|browsers *|Yes||
+|Instagram|browsers *|Yes||
+|Facebook|browsers *|Yes||
+Browsers *: Google Chrome, Oprah, Firefox, Microsoft Edge.
+
+
 
 
 
