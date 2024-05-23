@@ -12,7 +12,7 @@ body {
 
 /* Header styles */
 header {
-    background-image: url('images/Nav background image.jpg'); /* Add background image */
+    background-image: url('../images/Nav background image.jpg'); /* Add background image */
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff; /* White text */
@@ -144,7 +144,7 @@ footer {
 }
 
 body.reservation-page {
-    background-image: url('images/Background-Image.jpg');
+    background-image: url('../images/Background-Image.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -244,7 +244,7 @@ form input[type="submit"]:hover {
 }
 
 body.index-background {
-    background-image: url('images/Diner-inside-4.jpg');
+    background-image: url('../images/Diner-inside-4.jpg');
     background-size: cover; /* Ensure the background image covers the entire page */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
@@ -355,7 +355,7 @@ nav {
 }
 
 body.Contact-page {
-    background-image: url('images/Diner-inside-5.jpg');
+    background-image: url('../images/Diner-inside-5.jpg');
     background-size: cover; /* Ensure the background image covers the entire page */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the background image from repeating */
