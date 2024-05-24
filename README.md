@@ -78,15 +78,14 @@ __Index / Homepage__
 
 ![The Index-page on small screen](The_Indexpage_on_small_screen.png)
 
-On the index-page I wanted the User to get some basic photographic tips. I wrote all of the text myself. I also added a link to wikipedia explaining the rule of thirds. Hopefully this will improve the quality of photos for the User, as well as ignite a spark of curiosity regaring the wide world of photography.
-
-__Gallery page__
+On the index-page I wanted the User to have the american expereince from the start. which is why I included the american flag and kept in with the red white and blue color theme. I also wanted to make a slideshow to show some of the photos of the diner. While giving the user some text about who there are and also what kind of meals have.
+__Reservation Page__
 
 ![Gallerypage as imagined](<Gallerypage image.png>) 
 
 ![The Gallery Page on a medium sized screen](The_Gallery_page_Medium_size_screen.png)
 
-On the gallery page I added some of my own photos as examples for the User to explain more in detail how the photos were taken, thus giving the User a larger understanding for and some more tips on how to take good pictures of their pets.
+I wanted to make the reservation page as simpleas possible. Which is why it just has the form and a photo of the diner to keep it simple for the user 
 
 __Contact page__
 
@@ -94,38 +93,29 @@ __Contact page__
 
 ![Subscriptions-form on contact page](Subscribe_to_newsmail_and_contact.png)
 
-On the contact page, the User finds my email and my phonenumber.
-They may also subscribe to a weekly email with commersial material.
-As the User surely have further questions and a newborn passion for photography, they will be eager to recieve emails with relevant links.
-I also assure them their personal data is safe with me.
+On the contact page, the User finds my email and my phonenumber, along with the address and a google map to show where it is Again wanted to keep it simple with a image of the diner interior in the background 
 
 
-
-### Existing Features
 
 - __Navigation Bar__
 
 ![navbar](navigation.png)
 
-- Featured on all three pages, the full responsive navigation bar includes links to the Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
+Our full responsive navigation bar ensures smooth navigation across all pages. Here’s how it works:
 
-- When the screen size is, and is smaller than 768px the navbar turns into an bar-icon to save space in the header.
-
-- This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the "back" button.
+1. Consistent Links: Whether you’re on the Home page, Gallery, or Contact page, the navigation bar remains identical. You’ll find direct links to each section, making it easy to switch between pages.
+   
+2. Mobile-Friendly: When the screen size is smaller than 768px, the navigation bar transforms into a compact bar icon. This space-saving design ensures a seamless experience even on smaller screens.
 
 ## Testing 
 
 ![menu bar missing and three columns of photos](<The navigation menu is not showing.png>)
 
-I have used Dev-tools in Google Chrome to check how the pages respond to diffrent sizes.
-For example I have done a lot of testing to get the gallery-page to work good. 
-I also wanted the navigation bar to become an burger-menu for the smaller screen-sizes.
-Here we see that the buger nav-toggle is missing, We also see there being three columns of photos, at these smaller sizes I want them to be only two, and on 768px and smaller I want only one column.
+I used W3schools to validate the code
 
-I was finally able to solve this by changeing the order of the media-querries from biggest to smallest screen-size within the stylesheet.
 
 ![Responsive on all browsers tested](responsive_on_firefox_oprah_edge_chrome.png)
-The Webpage is responsive on all web-browsers i have tested it in, even the subscription-form on the contact page is working properly. Microsoft Edge, Firefox, Oprah and Chrome. 
+The Webpage is responsive on all web-browsers i have tested it in, even the subscription-form on the contact page is working properly. Microsoft Edge, Chrome. 
 
 ![In this image we see the form working well in all browsers.](<Skärmbild 2024-03-15 194856.png>)
 
@@ -143,6 +133,49 @@ The Webpage is responsive on all web-browsers i have tested it in, even the subs
 |Instagram|browsers *|Yes||
 |Facebook|browsers *|Yes||
 Browsers *: Google Chrome, Oprah, Firefox, Microsoft Edge.
+
+## Deployment
+
+
+- The site was built on gitpod and deployed to GitHub pages.
+
+
+
+Live site adress: [American diner websitewebsite](https://markus96.github.io/Project-1-Mark-Eddy-American-Diner-UK)
+
+## Credits 
+
+-I got the idea for the nav bar drop down menu using W3S
+https://markus96.github.io/Project-1-Mark-Eddy-American-Diner-UK
+-The slide show I got support from W3S
+
+-The form I got support with from the love running Code institute [The Code Institute Responsive Formdump](https://formdump.codeinstitute.net/) whitin my subscription-form
+
+
+
+
+-I started out making divs with paragraphs, but searched om google an found this page which gave me some tips on how to set up the gallery useing <figure> and <figurecaption>.
+Medium.com
+[medium.com where I found figure and figcaption](https://medium.com/frontendshortcut/how-to-make-a-polaroid-photo-gallery-in-html-and-css-d68f5a306c84)
+
+
+
+
+### Content 
+-The text throught the entire website on all pages, are my own.
+
+
+-I have linked [Wikipedia rule of thirds](https://en.wikipedia.org/wiki/Rule_of_thirds) for the users to find a broader explenation of the "rule of thirds".
+
+
+### Media
+
+For the images I used where from a royaty free websites called [Pexels]https://www.pexels.com/ and [Unsplash]https://unsplash.com/
+
+### Conclusion 
+
+All in all I think that the website that I have created meats the clients needs. For a simple website that show off what the diner is and I have met what the clients needs were.
+
 
 
 
