@@ -12,20 +12,20 @@ body {
 
 /* Header styles */
 header {
-    background-image: url('../images/Nav background image.jpg'); /* Add background image */
+    background-image: url('../images/Nav background image.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff; /* White text */
     padding: 20px;
-    display: flex; /* Use flexbox layout */
-    justify-content: space-between; /* Align items to opposite ends of the flex container */
-    align-items: center; /* Align items vertically */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 header h1 {
     font-family: 'Anton', sans-serif;
     font-size: 24px;
-    color: red; /* Change header h1 color to red */
+    color: red; 
 }
 
 nav ul {
@@ -60,9 +60,9 @@ section {
 #form h2 {
 	Color: white;
     text-align: left;
-    background-color: rgba(196, 1, 17, 0.7); /* White with 70% opacity */
-    padding: 10px; /* Add padding for better readability */
-    border-radius: 5px; /* Optional: Add border radius for styling */
+    background-color: rgba(196, 1, 17, 0.7); 
+    padding: 10px; 
+    border-radius: 5px; /
     max-width: 400px;
 	color: white;
 	
@@ -98,20 +98,20 @@ section {
 
 #Menu h2 {
     text-align: center;
-    background-color: rgba(232, 234, 235, 0.7); /* White with 70% opacity */
-    padding: 10px; /* Add padding for better readability */
-    border-radius: 5px; /* Optional: Add border radius for styling */
-	padding: 8px;/* Add padding to create space between the content and the border */
-    border-radius: 10px; /* Add a border radius of 10px to create curved corners */
+    background-color: rgba(232, 234, 235, 0.7);
+    padding: 10px; 
+    border-radius: 5px; 
+	padding: 8px;
+    border-radius: 10px; 
 	color: white;
 }
 
 
 #Menu img {
 	display: block;
-    margin: 20px auto; /* Center the image and add some spacing */
+    margin: 20px auto; 
     width: 60%;
-    height: auto; /* Maintain the image's aspect ratio */
+    height: auto; 
 }
 #Our-Pledge p {
     text-align: center;
@@ -120,8 +120,8 @@ section {
     background-color: white; /* Add a 1px solid black border */
     padding: 8px;/* Add padding to create space between the content and the border */
     border-radius: 10px; /* Add a border radius of 10px to create curved corners */
-	padding: 8px;/* Add padding to create space between the content and the border */
-    border-radius: 10px; /* Add a border radius of 10px to create curved corners */
+	padding: 8px;
+    border-radius: 10px; 
 }
 
 #Our-Pledge h2 {
@@ -144,7 +144,7 @@ footer {
 }
 
 #reservation-page {
-    background-image: url('images/Background-Image.jpg');
+    background-image: url('../images/Background-Image.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
