@@ -109,6 +109,8 @@ Our full responsive navigation bar ensures smooth navigation across all pages. H
    
 2. Mobile-Friendly: When the screen size is smaller than 768px, the navigation bar transforms into a compact bar icon. This space-saving design ensures a seamless experience even on smaller screens.
 
+-----------------------------------
+
 ## Testing 
 
 
@@ -132,6 +134,8 @@ I used W3schools to validate the code
 
 The Webpage is responsive on all web-browsers i have tested it in, even the subscription-form on the contact page is working properly. Microsoft Edge, Chrome. 
 
+-----------------------------------
+
 ### Functional Testing
 
 |Function|On platform|Works good| Fails|
@@ -146,6 +150,7 @@ The Webpage is responsive on all web-browsers i have tested it in, even the subs
 |Instagram|browsers *|Yes||
 |Facebook|browsers *|Yes||
 Browsers *: Google Chrome, Oprah, Firefox, Microsoft Edge.
+-----------------------------------
 
 ## Deployment
 
@@ -154,7 +159,8 @@ Browsers *: Google Chrome, Oprah, Firefox, Microsoft Edge.
 
 
 
-Live site adress: [American diner websitewebsite](https://markus96.github.io/Project-1-Mark-Eddy-American-Diner-UK)
+Live site adress: [American diner UK website](https://markus96.github.io/Project-1-Mark-Eddy-American-Diner-UK)
+-----------------------------------
 
 ## Credits 
 
@@ -164,15 +170,21 @@ Live site adress: [American diner websitewebsite](https://markus96.github.io/Pro
 
 -The form I got support with from the love running Code institute [The Code Institute Responsive Form](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/d533998456514d97a88ce691537e00a6/)
 
+-----------------------------------
+
 
 
 ### Content 
 -The text throught the entire website on all pages, are my own.
 
+-----------------------------------
+
 
 ### Media
 
 For the images I used where from a royaty free websites called [Pexels]https://www.pexels.com/ and [Unsplash]https://unsplash.com/
+
+-----------------------------------
 
 ### Conclusion 
 
