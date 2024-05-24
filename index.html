@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="Assets/CSS/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="assets/CSS/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
     <title>American Diner UK</title>
-    
 </head>
 <body class="index-background">
     <header>
@@ -23,34 +22,93 @@
             </div>
         </nav>
     </header>
-	
-	
-    
+
+    <button id="openModalBtn">Sign Up for Newsletter</button>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModalBtn">&times;</span>
+            <h2>Sign Up to Our Newsletter</h2>
+            <form id="newsletterForm">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
     <section class="slideshow-container">
-    <h2>Welcome to American Diner UK</h2>
-		
+        <h2>Welcome to American Diner UK</h2>
         <div class="mySlides fade">
-            <img src="Assets/images/Diner-inside-1.jpg" alt="Diner inside 1">
+            <img src="assets/images/Diner-inside-1.jpg" alt="Diner inside 1">
         </div>
-        
         <div class="mySlides fade">
-            <img src="Assets/images/Diner-inside-2.jpg" alt="Diner inside 2">
+            <img src="assets/images/Diner-inside-2.jpg" alt="Diner inside 2">
         </div>
-        
         <div class="mySlides fade">
-            <img src="Assets/images/Diner-inside-3.jpg" alt="Diner inside 3">
+            <img src="assets/images/Diner-inside-3.jpg" alt="Diner inside 3">
         </div>
-       
-        
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </section>
-    
-    <!-- JavaScript code for slideshow -->
+
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>Welcome to American Diner UK, where you can enjoy the authentic taste of American cuisine right here in the heart of the UK. Our diner offers a nostalgic journey back to the golden age of classic American diners, complete with vibrant decor, cozy booths, and a warm, friendly atmosphere. Whether you're craving a hearty breakfast, a satisfying lunch, or a delectable dinner, our menu has something for everyone.
+        Explore our extensive menu filled with classic American dishes such as juicy, mouth-watering burgers made from premium beef, crispy golden fries, and thick, creamy milkshakes in a variety of flavors. Indulge in our signature dishes like BBQ ribs smothered in tangy sauce, fluffy buttermilk pancakes topped with maple syrup, and our famous apple pie with a scoop of vanilla ice cream.
+        </p>
+    </section>
+
+    <section id="Menu">
+        <img src="assets/images/Menu-food.jpg" alt="Delicious food from our menu">
+        <h2>Menu</h2>
+        <p>Explore our extensive menu filled with classic American dishes such as juicy, mouth-watering burgers made from premium beef, crispy golden fries, and thick, creamy milkshakes in a variety of flavors. Indulge in our signature dishes like BBQ ribs smothered in tangy sauce, fluffy buttermilk pancakes topped with maple syrup, and our famous apple pie with a scoop of vanilla ice cream.
+        In addition to our traditional favorites, we also offer a range of vegetarian and gluten-free options, ensuring that everyone can enjoy a taste of America. Our commitment to quality ingredients and authentic recipes means that every bite is packed with flavor and satisfaction.</p>
+    </section>
+
+    <section id="Our-Pledge">
+        <h2>Our Pledge</h2>
+        <p>In addition to our traditional favorites, we also offer a range of vegetarian and gluten-free options, ensuring that everyone can enjoy a taste of America. Our commitment to quality ingredients and authentic recipes means that every bite is packed with flavor and satisfaction.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 American Diner UK. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
     <script>
+        // JavaScript for the modal
+        document.addEventListener('DOMContentLoaded', () => {
+            const modal = document.getElementById('modal');
+            const openModalBtn = document.getElementById('openModalBtn');
+            const closeModalBtn = document.getElementById('closeModalBtn');
+            const newsletterForm = document.getElementById('newsletterForm');
+
+            openModalBtn.addEventListener('click', () => {
+                modal.style.display = 'flex';
+            });
+
+            closeModalBtn.addEventListener('click', () => {
+                modal.style.display = 'none';
+            });
+
+            window.addEventListener('click', (event) => {
+                if (event.target == modal) {
+                    modal.style.display = 'none';
+                }
+            });
+
+            newsletterForm.addEventListener('submit', (event) => {
+                event.preventDefault();
+                alert('Thank you for subscribing!');
+                modal.style.display = 'none';
+            });
+        });
+
+        // JavaScript for slideshow
         var slideIndex = 0;
         showSlides();
-        
+
         function showSlides() {
             var i;
             var slides = document.getElementsByClassName("mySlides");
@@ -62,7 +120,7 @@
             slides[slideIndex - 1].style.display = "block";  // Display the current slide
             setTimeout(showSlides, 8000);  // Change slide every 8 seconds
         }
-        
+
         function plusSlides(n) {
             slideIndex += n;
             if (slideIndex > document.getElementsByClassName("mySlides").length) {slideIndex = 1}
@@ -70,38 +128,5 @@
             showSlides();
         }
     </script>
-    
-    <section id="about-us">
-        <h2>About Us</h2>
-        <p>Welcome to American Diner UK, where you can enjoy the authentic taste of American cuisine right here in the heart of the UK. Our diner offers a nostalgic journey back to the golden age of classic American diners, complete with vibrant decor, cozy booths, and a warm, friendly atmosphere. Whether you're craving a hearty breakfast, a satisfying lunch, or a delectable dinner, our menu has something for everyone.
-		Explore our extensive menu filled with classic American dishes such as juicy, mouth-watering burgers made from premium beef, crispy golden fries, and thick, creamy milkshakes in a variety of flavors. Indulge in our signature dishes like BBQ ribs smothered in tangy sauce, fluffy buttermilk pancakes topped with maple syrup, and our famous apple pie with a scoop of vanilla ice cream.
-		</p>
-		
-    </section>
-	
-	
-    <section id="Menu">
-		<img src="assets/images/Menu-food.jpg" alt="Delicious food from our menu">
-        <h2>Menu</h2>
-		
-        <p>Explore our extensive menu filled with classic American dishes such as juicy, mouth-watering burgers made from premium beef, crispy golden fries, and thick, creamy milkshakes in a variety of flavors. Indulge in our signature dishes like BBQ ribs smothered in tangy sauce, fluffy buttermilk pancakes topped with maple syrup, and our famous apple pie with a scoop of vanilla ice cream.
-		In addition to our traditional favorites, we also offer a range of vegetarian and gluten-free options, ensuring that everyone can enjoy a taste of America. Our commitment to quality ingredients and authentic recipes means that every bite is packed with flavor and satisfaction.</p>
-		
-		
-    </section>
-	
-	<section id="Our-Pledge">
-        <h2>Our Pledge</h2>
-		
-		
-        <p>In addition to our traditional favorites, we also offer a range of vegetarian and gluten-free options, ensuring that everyone can enjoy a taste of America. Our commitment to quality ingredients and authentic recipes means that every bite is packed with flavor and satisfaction.</p>
-		
-    </section>
-	
-	
-    
-    <footer>
-        <p>&copy; 2024 American Diner UK. All rights reserved.</p>
-    </footer>
 </body>
 </html>

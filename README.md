@@ -12,6 +12,19 @@ User-Friendly Navigation: Ensure the website is easy to navigate, allowing visit
 Responsive Design: The website should be responsive, providing an optimal viewing experience across various devices, including desktops, tablets, and smartphones.
 
 -----------------------------------
+
+# Development Process
+
+## 1. Design
+
+- **Wireframes and Mockups**: Create wireframes for the layout of each page and high-fidelity mockups for the design.
+- **Branding**: Ensure the design aligns with the diner’s branding, using appropriate colors, fonts, and imagery.
+- **Responsive Design**: Design for responsiveness to ensure the site looks good on all devices (desktops, tablets, and smartphones).
+
+## 2. Development
+- **HTML/CSS/JavaScript**: Write the code for the static pages, ensuring clean, semantic HTML, well-structured CSS, and interactive JavaScript elements.
+- **Image Optimization**: Optimize images for fast loading times without sacrificing quality.
+
 # Website Structure
 
 ![IContactpage as imagined](<Index Page desktop.PNG>)
@@ -77,26 +90,27 @@ Source files and documentation for future maintenance and updates.
 
 __Index / Homepage__
 
-![Indexpage as imagined](<Index page wire frame.PNG>) 
+![Indexpage as imagined](<Assets/images/Index page wire frame.PNG>) 
 
-![The Index-page on small screen](<Index Page desktop.PNG>)
+![The Index-page on small screen](<Assets/images/Index Page desktop.PNG>)
 
-On the index-page I wanted the User to have the american expereince from the start. which is why I included the american flag and kept in with the red white and blue color theme. I also wanted to make a slideshow to show some of the photos of the diner. While giving the user some text about who there are and also what kind of meals have.
+On the index-page I wanted the User to have the american expereince from the start. which is why I included the american flag and kept in with the red white and blue color theme. I also wanted to make a slideshow to show some of the photos of the diner. While giving the user some text about who there are and also what kind of meals they can have, making sure to also right a breif description on what the diner is about. I also added a pop up so the user can click on it and the pop up will display a place where the user can if they want to put there email address in to get the diner newsletter. 
 
 __Reservation Page__
 
-![Reservation Page](<Reservation page wire frame.PNG>) 
+![Reservation Page](<Assets/images/Reservation page wire frame.PNG>) 
 
-I wanted to make the reservation page as simpleas possible. Which is why it just has the form and a photo of the diner to keep it simple for the user 
+I wanted to make the reservation page as simpleas possible. Which is why it just has the form and a photo of the diner to keep it simple for the user. Also made the reservation form fit in with the color theme and also look clean and easy to understand.
 
 __Contact page__
 
-![IContactpage as imagined](<Contact page wireframe.PNG>)
+![IContactpage as imagined](<Assets/images/Contact page wireframe.PNG>)
 
-![IContactpage as imagined](<Contact page.PNG>)
+![IContactpage as imagined](<Assets/images/Contact page.PNG>)
 
 
-On the contact page, the User finds my email and my phonenumber, along with the address and a google map to show where it is Again wanted to keep it simple with a image of the diner interior in the background 
+On the contact page, users can find my email address, phone number, and the diner's physical address. There's also an embedded Google map to show the location. To keep it simple, I've used an image of the diner's interior as the background. The contact details are centered on the screen, maintaining the color theme for a cohesive and visually appealing look.
+
 
 
 
@@ -109,28 +123,32 @@ Our full responsive navigation bar ensures smooth navigation across all pages. H
    
 2. Mobile-Friendly: When the screen size is smaller than 768px, the navigation bar transforms into a compact bar icon. This space-saving design ensures a seamless experience even on smaller screens.
 
+-----------------------------------
+
 ## Testing 
 
 
 I used W3schools to validate the code
 
-![IContactpage as imagined](<Index page validation proof.PNG>)
+![IContactpage as imagined](<Assets/images/Index page validation proof.PNG>)
 
-![IContactpage as imagined](<Contact page validation proof.PNG>)
+![IContactpage as imagined](<Assets/images/Contact page validation proof.PNG>)
 
-![IContactpage as imagined](<Reservation validation proof.PNG>)
+![IContactpage as imagined](<Assets/images/Reservation validation proof.PNG>)
 
-![IContactpage as imagined](<CSS Validation proof.PNG>)
+![IContactpage as imagined](<Assets/images/CSS Validation proof.PNG>)
 
 
-![Google Chrome page test](<Google chrome test.PNG>)
-![Microsft edge Indext page test](<Microsft edge Indext page test.PNG>)
-![Fire fox page test](<Firefox test.PNG>)
-![Internet Explorer](<Internet explorer test.PNG>)
+![Google Chrome page test](<Assets/images/Google chrome test.PNG>)
+![Microsft edge Indext page test](<Assets/images/Microsft edge Indext page test.PNG>)
+![Fire fox page test](<Assets/images/Firefox test.PNG>)
+![Internet Explorer](<Assets/images/Internet explorer test.PNG>)
 
 
 
 The Webpage is responsive on all web-browsers i have tested it in, even the subscription-form on the contact page is working properly. Microsoft Edge, Chrome. 
+
+-----------------------------------
 
 ### Functional Testing
 
@@ -146,6 +164,7 @@ The Webpage is responsive on all web-browsers i have tested it in, even the subs
 |Instagram|browsers *|Yes||
 |Facebook|browsers *|Yes||
 Browsers *: Google Chrome, Oprah, Firefox, Microsoft Edge.
+-----------------------------------
 
 ## Deployment
 
@@ -154,7 +173,8 @@ Browsers *: Google Chrome, Oprah, Firefox, Microsoft Edge.
 
 
 
-Live site adress: [American diner websitewebsite](https://markus96.github.io/Project-1-Mark-Eddy-American-Diner-UK)
+Live site adress: [American diner UK website](https://markus96.github.io/Project-1-Mark-Eddy-American-Diner-UK)
+-----------------------------------
 
 ## Credits 
 
@@ -164,19 +184,35 @@ Live site adress: [American diner websitewebsite](https://markus96.github.io/Pro
 
 -The form I got support with from the love running Code institute [The Code Institute Responsive Form](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/d533998456514d97a88ce691537e00a6/)
 
+-----------------------------------
+
 
 
 ### Content 
 -The text throught the entire website on all pages, are my own.
+
+-----------------------------------
 
 
 ### Media
 
 For the images I used where from a royaty free websites called [Pexels]https://www.pexels.com/ and [Unsplash]https://unsplash.com/
 
+-----------------------------------
+
 ### Conclusion 
 
-All in all I think that the website that I have created meats the clients needs. For a simple website that show off what the diner is and I have met what the clients needs were.
+All in all, I believe that the website I have created meets the client's needs effectively. The website showcases the essence of the American Diner UK, presenting a simple yet engaging interface that highlights what the diner is all about.
+
+From the visually appealing design to the user-friendly navigation, every element has been carefully crafted to reflect the diner's unique atmosphere and culinary offerings. The homepage welcomes visitors with a captivating slideshow of the diner's interior, while the about section provides a nostalgic journey through the diner's history and menu.
+
+To enhance user engagement, a pop-up newsletter subscription form appears automatically after a few seconds of visiting the site. This feature encourages visitors to stay connected with the latest updates and promotions from the diner.
+
+The contact page is designed for ease of use, featuring essential contact information such as email, phone number, and address, all centered on the screen with an embedded Google map for convenience. The background image of the diner's interior adds a personal touch and maintains consistency with the overall color theme.
+
+By focusing on simplicity and clarity, I've ensured that the website effectively communicates the diner's brand and makes it easy for visitors to find the information they need. The responsive design guarantees a seamless experience across all devices, from desktops to smartphones.
+
+In conclusion, this website fulfills the client's requirements by offering a straightforward, visually appealing platform that showcases the American Diner UK in the best possible light. The inclusion of a newsletter pop-up adds an interactive element that helps build a connection with the audience, encouraging them to engage with the diner beyond their visit to the website.
 
 
 
