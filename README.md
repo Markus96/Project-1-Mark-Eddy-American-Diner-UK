@@ -77,24 +77,24 @@ Source files and documentation for future maintenance and updates.
 
 __Index / Homepage__
 
-![Indexpage as imagined](<Indexpage image.png>) 
+![Indexpage as imagined](<Index page wire frame.PNG>) 
 
-![The Index-page on small screen](The_Indexpage_on_small_screen.png)
+![The Index-page on small screen](<Index Page desktop.PNG>)
 
 On the index-page I wanted the User to have the american expereince from the start. which is why I included the american flag and kept in with the red white and blue color theme. I also wanted to make a slideshow to show some of the photos of the diner. While giving the user some text about who there are and also what kind of meals have.
+
 __Reservation Page__
 
-![Gallerypage as imagined](<Gallerypage image.png>) 
-
-![The Gallery Page on a medium sized screen](The_Gallery_page_Medium_size_screen.png)
+![Reservation Page](<Reservation page wire frame.PNG>) 
 
 I wanted to make the reservation page as simpleas possible. Which is why it just has the form and a photo of the diner to keep it simple for the user 
 
 __Contact page__
 
-![IContactpage as imagined](<Contactpage image.png>)
+![IContactpage as imagined](<Contact page wireframe.PNG>)
 
-![Subscriptions-form on contact page](Subscribe_to_newsmail_and_contact.png)
+![IContactpage as imagined](<Contact page.PNG>)
+
 
 On the contact page, the User finds my email and my phonenumber, along with the address and a google map to show where it is Again wanted to keep it simple with a image of the diner interior in the background 
 
@@ -102,7 +102,6 @@ On the contact page, the User finds my email and my phonenumber, along with the 
 
 - __Navigation Bar__
 
-![navbar](navigation.png)
 
 Our full responsive navigation bar ensures smooth navigation across all pages. Here’s how it works:
 
@@ -112,15 +111,20 @@ Our full responsive navigation bar ensures smooth navigation across all pages. H
 
 ## Testing 
 
-![menu bar missing and three columns of photos](<The navigation menu is not showing.png>)
 
 I used W3schools to validate the code
+
+![IContactpage as imagined](<Index page validation proof.PNG>)
+
+![IContactpage as imagined](<Contact page validation proof.PNG>)
+
+![IContactpage as imagined](<Reservation validation proof.PNG>)
+
+![IContactpage as imagined](<CSS Validation proof.PNG>)
 
 
 ![Responsive on all browsers tested](responsive_on_firefox_oprah_edge_chrome.png)
 The Webpage is responsive on all web-browsers i have tested it in, even the subscription-form on the contact page is working properly. Microsoft Edge, Chrome. 
-
-![In this image we see the form working well in all browsers.](<Skärmbild 2024-03-15 194856.png>)
 
 ### Functional Testing
 
@@ -148,27 +152,16 @@ Live site adress: [American diner websitewebsite](https://markus96.github.io/Pro
 
 ## Credits 
 
--I got the idea for the nav bar drop down menu using W3S
-https://markus96.github.io/Project-1-Mark-Eddy-American-Diner-UK
--The slide show I got support from W3S
+-I got the idea for the responsive navigation bar using W3S [Responsive Navigation bar](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
 
--The form I got support with from the love running Code institute [The Code Institute Responsive Formdump](https://formdump.codeinstitute.net/) whitin my subscription-form
+-The slide show I got support from W3S [W3S Slide show](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/d533998456514d97a88ce691537e00a6/)
 
-
-
-
--I started out making divs with paragraphs, but searched om google an found this page which gave me some tips on how to set up the gallery useing <figure> and <figurecaption>.
-Medium.com
-[medium.com where I found figure and figcaption](https://medium.com/frontendshortcut/how-to-make-a-polaroid-photo-gallery-in-html-and-css-d68f5a306c84)
-
+-The form I got support with from the love running Code institute [The Code Institute Responsive Form](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/d533998456514d97a88ce691537e00a6/)
 
 
 
 ### Content 
 -The text throught the entire website on all pages, are my own.
-
-
--I have linked [Wikipedia rule of thirds](https://en.wikipedia.org/wiki/Rule_of_thirds) for the users to find a broader explenation of the "rule of thirds".
 
 
 ### Media
