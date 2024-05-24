@@ -13,7 +13,7 @@ Responsive Design: The website should be responsive, providing an optimal viewin
 
 -----------------------------------
 # Website Structure
-![Indexpage](<Index Page desktop>)
+![Indexpage](Index Page desktop.png)
 # 1. Home Page
 Header: Featuring the American Diner UK logo and navigation menu.
 
