@@ -143,7 +143,7 @@ footer {
     width: 100%;
 }
 
-body.reservation-page {
+#reservation-page {
     background-image: url('../images/Background-Image.jpg');
     background-size: cover;
     background-repeat: no-repeat;
