@@ -123,7 +123,13 @@ I used W3schools to validate the code
 ![IContactpage as imagined](<CSS Validation proof.PNG>)
 
 
-![Responsive on all browsers tested](responsive_on_firefox_oprah_edge_chrome.png)
+![Google Chrome page test](<Google chrome test.PNG>)
+![Microsft edge Indext page test](<Microsft edge Indext page test.PNG>)
+![Fire fox page test](<Firefox test.PNG>)
+![Internet Explorer](<Internet explorer test.PNG>)
+
+
+
 The Webpage is responsive on all web-browsers i have tested it in, even the subscription-form on the contact page is working properly. Microsoft Edge, Chrome. 
 
 ### Functional Testing
