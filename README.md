@@ -287,6 +287,8 @@ Live site adress: [American diner UK website](https://markus96.github.io/Project
 
 -The form I got support with from the love running Code institute [The Code Institute Responsive Form](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/d533998456514d97a88ce691537e00a6/)
 
+-The pop up newsletter I got help from W3S  [W3S ](https://www.w3schools.com/howto/howto_js_popup.asp)
+
 -----------------------------------
 
 
