@@ -90,23 +90,23 @@ Source files and documentation for future maintenance and updates.
 
 __Index / Homepage__
 
-![Indexpage as imagined](<Assets/images/Index page wire frame.PNG>) 
+![Indexpage as imagined](<assets/images/Index page wire frame.PNG>) 
 
-![The Index-page on small screen](<Assets/images/Index Page desktop.PNG>)
+![The Index-page on small screen](<assets/images/Index Page desktop.PNG>)
 
 On the index-page I wanted the User to have the american expereince from the start. which is why I included the american flag and kept in with the red white and blue color theme. I also wanted to make a slideshow to show some of the photos of the diner. While giving the user some text about who there are and also what kind of meals they can have, making sure to also right a breif description on what the diner is about. I also added a pop up so the user can click on it and the pop up will display a place where the user can if they want to put there email address in to get the diner newsletter. 
 
 __Reservation Page__
 
-![Reservation Page](<Assets/images/Reservation page wire frame.PNG>) 
+![Reservation Page](<assets/images/Reservation page wire frame.PNG>) 
 
 I wanted to make the reservation page as simpleas possible. Which is why it just has the form and a photo of the diner to keep it simple for the user. Also made the reservation form fit in with the color theme and also look clean and easy to understand.
 
 __Contact page__
 
-![IContactpage as imagined](<Assets/images/Contact page wireframe.PNG>)
+![IContactpage as imagined](<assets/images/Contact page wireframe.PNG>)
 
-![IContactpage as imagined](<Assets/images/Contact page.PNG>)
+![IContactpage as imagined](<assets/images/Contact page.PNG>)
 
 
 On the contact page, users can find my email address, phone number, and the diner's physical address. There's also an embedded Google map to show the location. To keep it simple, I've used an image of the diner's interior as the background. The contact details are centered on the screen, maintaining the color theme for a cohesive and visually appealing look.
@@ -130,19 +130,19 @@ Our full responsive navigation bar ensures smooth navigation across all pages. H
 
 I used W3schools to validate the code
 
-![IContactpage as imagined](<Assets/images/Index page validation proof.PNG>)
+![IContactpage as imagined](<assets/images/Index page validation proof.PNG>)
 
-![IContactpage as imagined](<Assets/images/Contact page validation proof.PNG>)
+![IContactpage as imagined](<assets/images/Contact page validation proof.PNG>)
 
-![IContactpage as imagined](<Assets/images/Reservation validation proof.PNG>)
+![IContactpage as imagined](<assets/images/Reservation validation proof.PNG>)
 
-![IContactpage as imagined](<Assets/images/CSS Validation proof.PNG>)
+![IContactpage as imagined](<assets/images/CSS Validation proof.PNG>)
 
 
-![Google Chrome page test](<Assets/images/Google chrome test.PNG>)
-![Microsft edge Indext page test](<Assets/images/Microsft edge Indext page test.PNG>)
-![Fire fox page test](<Assets/images/Firefox test.PNG>)
-![Internet Explorer](<Assets/images/Internet explorer test.PNG>)
+![Google Chrome page test](<assets/images/Google chrome test.PNG>)
+![Microsft edge Indext page test](<assets/images/Microsft edge Indext page test.PNG>)
+![Fire fox page test](<assets/images/Firefox test.PNG>)
+![Internet Explorer](<assets/images/Internet explorer test.PNG>)
 
 
 
