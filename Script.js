@@ -2,8 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modal = document.getElementById('modal');
     const closeModalBtn = document.getElementById('closeModalBtn');
     const newsletterForm = document.getElementById('newsletterForm');
-
-    // Open the modal automatically after a short delay (e.g., 3 seconds)
+ 
     setTimeout(() => {
         modal.style.display = 'flex';
     }, 6000
