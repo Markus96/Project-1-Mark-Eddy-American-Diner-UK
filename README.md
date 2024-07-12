@@ -24,10 +24,35 @@ Responsive Design: The website should be responsive, providing an optimal viewin
 ## 2. Development
 - **HTML/CSS/JavaScript**: Write the code for the static pages, ensuring clean, semantic HTML, well-structured CSS, and interactive JavaScript elements.
 - **Image Optimization**: Optimize images for fast loading times without sacrificing quality.
+- 
+## 3. Functional Testing
+
+### Navigation
+Verify that navigation links (`Home`, `Contact Us`, `Reservation`) correctly navigate to respective pages without errors.
+
+### Layout Consistency
+Ensure the layout remains consistent across different screen sizes and devices. Test responsiveness by resizing the browser window and using mobile device emulators.
+
+##  Interactive Elements
+Test interactive elements such as buttons, forms, and modal pop-ups. Confirm they function as expected without any usability issues.
+
+## 7. Performance Testing
+
+## Page Load Speed
+Measure the loading times of each page, focusing on image-heavy sections such as the menu and gallery. Aim for fast loading times across devices and internet speeds.
+
+## Cross-Browser Compatibility
+
+## Browser Testing
+Validate the website's compatibility with major browsers (Chrome, Firefox, Safari, Edge, etc.). Ensure consistent appearance and functionality across different browsers.
+
+---
+
+This testing ensures the American Diner UK website meets high standards of functionality, performance, and compatibility across various platforms and browsers, delivering a seamless user experience.
 
 # Website Structure
 
-![IContactpage as imagined](<Index Page desktop.PNG>)
+![IContactpage as imagined](<assets/images/Index Page desktop.PNG>)
 
 # 1. Home Page
 Header: Featuring the American Diner UK logo and navigation menu.
@@ -94,13 +119,62 @@ __Index / Homepage__
 
 ![The Index-page on small screen](<assets/images/Index Page desktop.PNG>)
 
-On the index-page I wanted the User to have the american expereince from the start. which is why I included the american flag and kept in with the red white and blue color theme. I also wanted to make a slideshow to show some of the photos of the diner. While giving the user some text about who there are and also what kind of meals they can have, making sure to also right a breif description on what the diner is about. I also added a pop up so the user can click on it and the pop up will display a place where the user can if they want to put there email address in to get the diner newsletter. 
+## Index Page Design Overview
+
+### Objective
+The index page of the American Diner UK website is designed to immerse the user in an authentic American dining experience right from the start. This is achieved through several key elements that evoke the spirit of classic American diners while providing essential information about the diner and its offerings.
+
+### Key Design Elements and Considerations
+
+#### Visual Elements
+- **American Theme**: The design prominently features the American flag and incorporates a red, white, and blue color scheme throughout the page. This color palette not only reflects American cultural symbols but also enhances the thematic coherence of the diner's branding.
+
+- **Slideshow**: A slideshow carousel is implemented to showcase vibrant photos of the diner's interior, capturing the ambiance and atmosphere. This visual presentation aims to engage users visually and create an inviting first impression.
+
+#### Content Strategy
+- **Introduction Text**: Concise yet informative text introduces the diner to users, providing a brief overview of its history, ambiance, and the types of meals offered. This content is strategically placed to be prominently visible, ensuring users grasp the essence of the diner quickly.
+
+- **Newsletter Popup**: A popup modal is included to encourage users to subscribe to the diner's newsletter. This feature not only captures user engagement but also serves as a direct marketing tool to keep customers informed about promotions, events, and updates.
+
+#### User Engagement and Interaction
+- **Interactive Popup**: The newsletter signup popup provides a convenient way for users to voluntarily provide their email addresses, demonstrating proactive engagement with potential customers right from the homepage.
+
+### User Experience Focus
+- **Ease of Navigation**: Navigation elements such as the American flag and menu links (Home, Contact Us, Reservation) are strategically positioned for easy access, ensuring seamless navigation throughout the website.
+
+- **Responsive Design**: The page layout is designed to be responsive, adapting seamlessly to different screen sizes and devices. This ensures a consistent and optimal viewing experience for users accessing the website from various devices.
+
+### Conclusion
+By incorporating thematic elements, engaging visuals, informative content, and interactive features like the newsletter signup popup, the index page of the American Diner UK website effectively conveys the essence of the diner while providing users with a welcoming and immersive online experience. The design choices prioritize user engagement, visual appeal, and usability, reflecting the diner's commitment to delivering a memorable dining experience both online and offline.
+
 
 __Reservation Page__
 
 ![Reservation Page](<assets/images/Reservation page wire frame.PNG>) 
 
-I wanted to make the reservation page as simpleas possible. Which is why it just has the form and a photo of the diner to keep it simple for the user. Also made the reservation form fit in with the color theme and also look clean and easy to understand.
+ ### Reservation Page Design
+
+#### Objective
+The primary goal for the reservation page of the American Diner UK website was to create a simple and intuitive experience for users wishing to make a reservation. The design focuses on minimalism and clarity, ensuring that users can easily navigate the form and understand the reservation process without unnecessary distractions.
+
+#### Key Design Considerations
+
+#### Simplicity
+The reservation page was intentionally kept minimalistic. It features only the reservation form and a photograph of the diner. This approach aims to reduce cognitive load on the user, providing a straightforward interface where the form is the central element of interaction.
+
+#### Visual Design
+- **Color Theme**: The reservation form aligns with the overall color theme of the website, using a background color that enhances readability and maintains visual coherence with other pages.
+  
+- **Clean Layout**: Emphasis was placed on clean and organized layout design. Elements such as form fields, labels, and submission buttons are strategically placed to guide the user through the reservation process step-by-step.
+
+#### User-Friendly Experience
+- **Ease of Use**: The form is designed to be intuitive, ensuring that users can quickly fill in their details and submit their reservation request without confusion.
+  
+- **Accessibility**: Considerations were made for accessibility, including clear contrast between text and background colors, ensuring that the form is readable for all users.
+
+#### Conclusion
+By prioritizing simplicity and user-friendliness, the reservation page of the American Diner UK website aims to provide a seamless experience for customers looking to book a table. The design choices, from minimalism to color scheme alignment, contribute to a cohesive and engaging interface that enhances the overall usability of the reservation process.
+
 
 __Contact page__
 
@@ -109,12 +183,37 @@ __Contact page__
 ![IContactpage as imagined](<assets/images/Contact page.PNG>)
 
 
-On the contact page, users can find my email address, phone number, and the diner's physical address. There's also an embedded Google map to show the location. To keep it simple, I've used an image of the diner's interior as the background. The contact details are centered on the screen, maintaining the color theme for a cohesive and visually appealing look.
+## Contact Page Design Overview
+
+### Objective
+The contact page of the American Diner UK website aims to provide users with essential contact information while maintaining simplicity and visual appeal. It serves as a direct point of communication for users to reach out to the diner, inquire about reservations, or get directions.
+
+### Key Design Elements and Considerations
+
+#### Visual Elements
+- **Background Image**: The contact page utilizes an image of the diner's interior as the background. This choice enhances the thematic continuity and immerses users in the diner's atmosphere, setting the tone for a pleasant and nostalgic experience.
+
+- **Centered Layout**: Contact details including email address, phone number, and physical address are centered on the screen. This layout ensures easy readability and accessibility, allowing users to quickly locate and utilize contact information without distractions.
+
+#### Content Strategy
+- **Contact Information**: Essential contact details such as email address (info@americandineruk.com), phone number (+44 123 456 789), and physical address (123 American Diner Street, London, UK) are prominently displayed. This information is crucial for users seeking to contact or visit the diner.
+
+- **Google Map Integration**: An embedded Google map is included to visually display the diner's location. This interactive map enhances user experience by providing clear geographical information and directions, facilitating ease of access for potential visitors.
+
+#### User Interaction
+- **Simplicity and Clarity**: The design prioritizes simplicity and clarity, ensuring that users can quickly grasp the contact information and utilize interactive elements like the Google map without unnecessary complexity.
+
+### Visual and Functional Cohesion
+- **Color Theme**: The contact page adheres to the diner's established color theme (red, white, and blue), maintaining visual consistency across the website. This cohesive design approach reinforces brand identity and enhances overall aesthetics.
+
+### User Experience Focus
+- **Responsive Design**: The page is designed to be responsive, ensuring optimal viewing and usability across various devices and screen sizes. This responsiveness guarantees a seamless user experience regardless of the device used to access the website.
+
+### Conclusion
+The contact page of the American Diner UK website effectively serves its purpose by providing essential contact details in a visually appealing and user-friendly manner. With a focus on simplicity, clear communication, and thematic coherence, the design enhances user engagement and facilitates seamless interaction with potential customers. By integrating interactive elements such as the Google map and maintaining a cohesive color theme, the contact page reinforces the diner's brand identity while ensuring a positive and informative user experience.
 
 
-
-
-- __Navigation Bar__
+## Navigation Bar
 
 
 Our full responsive navigation bar ensures smooth navigation across all pages. Here’s how it works:
@@ -165,6 +264,10 @@ The Webpage is responsive on all web-browsers i have tested it in, even the subs
 |Facebook|browsers *|Yes||
 Browsers *: Google Chrome, Oprah, Firefox, Microsoft Edge.
 -----------------------------------
+
+## Bugs
+
+I have a bug where for some reason the contact page would work with the CSS style sheet. After many hours of making sure it was calling for the right directory. I restarted Github enterprise and it is now working. I have tested this again and whatever happened is not happening again. so the issue must have been with github enterprise.
 
 ## Deployment
 
