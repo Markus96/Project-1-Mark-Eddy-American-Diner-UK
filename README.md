@@ -36,14 +36,14 @@ Ensure the layout remains consistent across different screen sizes and devices. 
 ##  Interactive Elements
 Test interactive elements such as buttons, forms, and modal pop-ups. Confirm they function as expected without any usability issues.
 
-## 7. Performance Testing
+## 3. Performance Testing
 
-## Page Load Speed
+### Page Load Speed
 Measure the loading times of each page, focusing on image-heavy sections such as the menu and gallery. Aim for fast loading times across devices and internet speeds.
 
-## Cross-Browser Compatibility
+### Cross-Browser Compatibility
 
-## Browser Testing
+### Browser Testing
 Validate the website's compatibility with major browsers (Chrome, Firefox, Safari, Edge, etc.). Ensure consistent appearance and functionality across different browsers.
 
 ---
