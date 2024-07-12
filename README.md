@@ -52,7 +52,7 @@ This testing ensures the American Diner UK website meets high standards of funct
 
 # Website Structure
 
-![IContactpage as imagined](<assets/images/Index Page desktop.PNG>)
+![IContactpage as imagined](<assets/images/Index page.PNG>)
 
 # 1. Home Page
 Header: Featuring the American Diner UK logo and navigation menu.
