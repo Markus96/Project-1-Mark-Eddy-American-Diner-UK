@@ -9,6 +9,7 @@
 </head>
 <body class="reservation-page">
     <header>
+        
         <h1>Welcome to American Diner UK</h1>
         <nav>
             <input type="checkbox" id="nav-toggle" class="nav-toggle">
@@ -25,6 +26,10 @@
     
     <section id="form">
         <h2>Reservation Form</h2>
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            </strong>This month only!</strong> 50% off order on reservation orders this month !!!!!!!
+          </div>
         <form action="reservation_process.php" method="POST">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name"><br><br>
