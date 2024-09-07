@@ -134,10 +134,10 @@ The index page of the American Diner UK website is designed to immerse the user 
 #### Content Strategy
 - **Introduction Text**: Concise yet informative text introduces the diner to users, providing a brief overview of its history, ambiance, and the types of meals offered. This content is strategically placed to be prominently visible, ensuring users grasp the essence of the diner quickly.
 
-- **Newsletter Popup**: A popup modal is included to encourage users to subscribe to the diner's newsletter. This feature not only captures user engagement but also serves as a direct marketing tool to keep customers informed about promotions, events, and updates.
+- **pop out money off** : A popup modal is included to encourage users to know about the curretn deal that us going on. This feature not only captures user engagement but also serves as a direct marketing tool to keep customers informed about promotions, events, and updates.
 
 #### User Engagement and Interaction
-- **Interactive Popup**: The newsletter signup popup provides a convenient way for users to voluntarily provide their email addresses, demonstrating proactive engagement with potential customers right from the homepage.
+- **Interactive Popup**: The pop out is red, which means that it stands out and can be closed by pressing the cross. This can be used in the future for an array of promotions.
 
 ### User Experience Focus
 - **Ease of Navigation**: Navigation elements such as the American flag and menu links (Home, Contact Us, Reservation) are strategically positioned for easy access, ensuring seamless navigation throughout the website.
